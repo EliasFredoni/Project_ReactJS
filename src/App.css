@@ -1,38 +1,88 @@
-.App {
+/******HEAD****/
+
+header {
+  background-color: green;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.title {
+  text-align: center;
   color: white;
+  border-bottom: 1px solid;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  padding: 20px 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  padding-top: 70px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.points {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  font-weight: bold;
+}
+
+.points>h1 {
+  border-left: 1px solid;
+}
+
+/*****FIRSTSECTION*****/
+
+h3 {
+  text-align: center;
+  color: green;
+  padding-top: 3em;
+  font-weight: bold;
+}
+
+h4 {
+  text-align: center;
+  font-size: 30px;
+  padding: 15px 13em;
+  margin-top: -25px;
+}
+
+.aboutBuisness {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.aboutBuisness>h2 {
+  padding: 0 85px;
+  margin-bottom: -30px;
+}
+
+.aboutBuisness>p {
+  line-height: 2;
+}
+
+/*********FOOTER******/
+
+footer {
+  padding: 50px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: lightgrey;
+  padding: 0 10%;
+  text-align: center;
+}
+
+.container>div {
+  background-color: white;
+}
+
+.grid-item {
+  border: 1px solid rgb(103, 21, 21);
+  padding: 120px;
 }
