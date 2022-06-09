@@ -56,12 +56,17 @@ h4 {
 }
 
 .aboutBuisness>h2 {
-  padding: 0 85px;
+  padding: 0 62px;
   margin-bottom: -30px;
 }
 
 .aboutBuisness>p {
   line-height: 2;
+}
+
+.aboutBuisness img {
+  width: 30px;
+  height: 30px;
 }
 
 /*********FOOTER******/
@@ -74,7 +79,7 @@ footer {
   display: grid;
   grid-template-columns: auto auto auto auto;
   background-color: lightgrey;
-  padding: 0 10%;
+  padding: 0 5%;
   text-align: center;
 }
 
@@ -82,7 +87,18 @@ footer {
   background-color: white;
 }
 
+.container img {
+  width: 230px;
+  height: 200px;
+}
+
+.text {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
 .grid-item {
-  border: 1px solid rgb(103, 21, 21);
-  padding: 120px;
+  padding: 23px;
+  color: blue;
+  text-align: left;
 }
